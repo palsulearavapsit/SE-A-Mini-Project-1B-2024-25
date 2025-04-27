@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "C:\Users\Shubham Khade\OneDrive\Documents\CLG\eduquest\Eduquest1.11\main.py", line 274, in <module>
+    app = EduQuestApp()
+          ^^^^^^^^^^^^^
+  File "C:\Users\Shubham Khade\OneDrive\Documents\CLG\eduquest\Eduquest1.11\main.py", line 20, in __init__
+    self.show_welcome_page()
+  File "C:\Users\Shubham Khade\OneDrive\Documents\CLG\eduquest\Eduquest1.11\main.py", line 27, in show_welcome_page
+    self.welcome_page = WelcomePage(self.root, self)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shubham Khade\OneDrive\Documents\CLG\eduquest\Eduquest1.11\pages\welcome_page.py", line 10, in __init__
+    self.create_widgets()
+  File "C:\Users\Shubham Khade\OneDrive\Documents\CLG\eduquest\Eduquest1.11\pages\welcome_page.py", line 87, in create_widgets
+    create_account_btn = ctk.CTkButton(
+                         ^^^^^^^^^^^^^^
+  File "C:\Users\Shubham Khade\anaconda3\Lib\site-packages\customtkinter\windows\widgets\ctk_button.py", line 61, in __init__
+    self._fg_color: Union[str, Tuple[str, str]] = ThemeManager.theme["CTkButton"]["fg_color"] if fg_color is None else self._check_color_type(fg_color, transparency=True)
+                                                                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shubham Khade\anaconda3\Lib\site-packages\customtkinter\windows\widgets\appearance_mode\appearance_mode_base_class.py", line 53, in _check_color_type
+    raise ValueError(f"transparency is not allowed in tuple color {color}, use 'transparent'")
+ValueError: transparency is not allowed in tuple color ('transparent', 'transparent'), use 'transparent'
