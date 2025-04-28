@@ -1,0 +1,103 @@
+{
+    "cars": [
+        {
+            "name": "BMW ",
+            "range": "300km",
+            "charging_type": "Type 2",
+            "status": "Active",
+            "registration": "9873894",
+            "type": "car",
+            "charging_history": [
+                {
+                    "date": "2025-04-22",
+                    "location": "Public Station",
+                    "units": 23.0,
+                    "cost": 250.0
+                },
+                {
+                    "date": "2025-04-22",
+                    "location": "Home",
+                    "units": 44.0,
+                    "cost": 340.0
+                },
+                {
+                    "date": "2025-04-17",
+                    "location": "Home",
+                    "units": 43.0,
+                    "cost": 200.0
+                },
+                {
+                    "date": "2025-04-27",
+                    "location": "Home",
+                    "units": 23.0,
+                    "cost": 200.0
+                },
+                {
+                    "date": "2025-04-27",
+                    "location": "Public Station",
+                    "units": 34.0,
+                    "cost": 300.0
+                }
+            ],
+            "maintenance": [],
+            "maintenance_history": [],
+            "upcoming_maintenance": [
+                {
+                    "type": "Regular Service",
+                    "due_date": "2025-04-22",
+                    "priority": "High",
+                    "notes": "",
+                    "status": "Scheduled"
+                },
+                {
+                    "type": "Regular Service",
+                    "due_date": "2025-04-27",
+                    "priority": "Low",
+                    "notes": "",
+                    "status": "Scheduled"
+                }
+            ]
+        },
+        {
+            "name": "BMW M4",
+            "type": "car",
+            "charging_type": "Type 1",
+            "max_power": 22,
+            "status": "Active",
+            "charging_history": [],
+            "preferred_stations": [],
+            "compatibility_score": 0,
+            "last_charged": null,
+            "charging_stats": {
+                "avg_duration": 0,
+                "avg_cost": 0,
+                "total_sessions": 0
+            }
+        },
+        {
+            "name": "Rolls Royce ",
+            "type": "car",
+            "charging_type": "Type 2",
+            "status": "Active",
+            "charging_history": [],
+            "preferred_stations": []
+        },
+        {
+            "name": "Mercedes Benz",
+            "type": "car",
+            "charging_type": "Type 2",
+            "status": "Active",
+            "charging_history": [],
+            "preferred_stations": []
+        }
+    ],
+    "bikes": [
+        {
+            "name": "Splender hg",
+            "range": "300km",
+            "charging_type": "Type 1",
+            "status": "Active",
+            "type": "bike"
+        }
+    ]
+}
